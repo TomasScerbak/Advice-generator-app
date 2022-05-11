@@ -1,0 +1,29 @@
+/* Typography */
+html {
+    font-size: 62.5%;
+  }
+  body {
+    line-height: 1.5;
+    font-size: 1.8rem;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  :root {
+    --color-pink: hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+  
+    --ff-open-sans: "Open Sans", sans-serif;
+    --ff-poppins: "Poppins", sans-serif;
+  }
+  h1,
+  h2 {
+    font-family: var(--ff-poppins);
+    font-weight: 600;
+  }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
