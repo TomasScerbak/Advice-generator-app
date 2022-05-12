@@ -59,12 +59,12 @@ html {
     margin: 0 2.4rem 2.4rem;
   }
   .decoration {
-    margin: 0 2.4rem 6rem;
+    margin: 0 2.4rem 5rem;
   }
   /* Button */
   .btn {
     position: absolute;
-    bottom: -20%;
+    bottom: -14%;
     left: 40.7%;
     outline: none;
     border: none;
@@ -73,6 +73,7 @@ html {
     padding: 20px;
     background-color: var(--Neon-green);
     transition: all 0.2s linear;
+    margin-top: 2rem;
   }
   .btn:hover {
     background: #53FFAA;
@@ -86,6 +87,9 @@ html {
     .btn {
       left: 44%;
       bottom: -10%;
+    }
+    .decoration {
+      margin: 0 2.4rem 2rem;
     }
   }
 
