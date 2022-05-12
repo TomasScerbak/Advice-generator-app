@@ -6,6 +6,7 @@ html {
     line-height: 1.5;
     font-size: 1.8rem;
     font-family: var(--ff-manrope);
+    background-color: var(--dark-blue);
   }
   *,
   *::before,
@@ -29,17 +30,64 @@ html {
     align-items: center;
     height: 100vh;
   }
+/* Card */
   .card {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto 1.6rem;
+    background-color: var(--grayish-blue);
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+    border-radius: 15px;
+    text-align: center;
   }
-
-
-
-
+  .advice-number {
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 3.46px;
+    text-transform: uppercase;
+    color: var(--Neon-green);
+    margin: 4rem auto 2.4rem auto;
+  }
+  .advice-text {
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -0.26px;
+    color: var(--light-cyan);
+    margin: 0 2.4rem 2.4rem;
+  }
+  .decoration {
+    margin: 0 2.4rem 5rem;
+  }
+  /* Button */
+  .btn {
+    position: absolute;
+    bottom: -11%;
+    left: 41%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 20px;
+    background-color: var(--Neon-green);
+    transition: all 0.2s linear;
+  }
+  .btn:hover {
+    background: #53FFAA;
+    box-shadow: 0px 0px 40px #53FFAA;
+  }
+  @media screen and (min-width: 700px) {
+    .card {
+      width: 54rem;
+      height: 33.2rem;
+    }
+    .btn {
+      left: 44.1%;
+    }
+  }
 
   /* Attribution */
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(231, 21%, 88%); }
