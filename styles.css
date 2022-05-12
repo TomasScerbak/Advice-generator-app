@@ -64,7 +64,7 @@ html {
   /* Button */
   .btn {
     position: absolute;
-    bottom: -11%;
+    bottom: -20%;
     left: 41%;
     outline: none;
     border: none;
@@ -84,7 +84,8 @@ html {
       height: 33.2rem;
     }
     .btn {
-      left: 44.1%;
+      left: 44%;
+      bottom: -10%;
     }
   }
 
