@@ -10,8 +10,8 @@ btn.addEventListener('click', (e) => {
       const id = data.slip.id
       const text = data.slip.advice;
   
-      adviceNumber.innerHTML = `# ${id}`;
-      adviceText.innerHTML = text;
+      adviceNumber.innerHTML = `advice # ${id}`;
+      adviceText.innerHTML = `"${text}"`;
     })
   })
 
