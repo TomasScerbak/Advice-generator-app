@@ -13,7 +13,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -40,8 +39,6 @@ Users should be able to:
 - Mobile-first workflow
 - Vanilla JS
 - API
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
