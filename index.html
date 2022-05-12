@@ -23,8 +23,23 @@
     <main>
       <section class="container">
         <div class="card">
-          <div class="advice-number"></div>
-          <div class="advice-text"></div>
+          <h2 class="advice-number"></h2>
+          <p class="advice-text"></p>
+          <picture>
+            <source
+              media="(min-width: 700px)"
+              srcset="images/pattern-divider-desktop.svg"
+            />
+            <source
+              media="(min-width: 300px)"
+              srcset="images/pattern-divider-mobile.svg"
+            />
+            <img
+              class="decoration"
+              src="images/pattern-divider-mobile.svg"
+              alt="decoration"
+            />
+          </picture>
           <button class="btn">
             <img src="images/icon-dice.svg" alt="dice button" />
           </button>
