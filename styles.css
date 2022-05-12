@@ -22,10 +22,24 @@ html {
     --ff-manrope: 'Manrope', sans-serif;
 
   }
-  h1,
-  h2 {
-    font-family: var(--ff-poppins);
-    font-weight: 600;
+/* Container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+  /* Attribution */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
